@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+}
+.head div{
+    display: inline-block;
+    position: relative;
+}
+.head div.headleft{
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.head div.headright{
+    margin: 10px;
+    position: fixed; right: 50px; top: 5px;
+    font-weight: bold;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
