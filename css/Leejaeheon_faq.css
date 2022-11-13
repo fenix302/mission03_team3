@@ -7,6 +7,9 @@
 header{
     border-bottom: 1px solid rgba(0, 0, 0, 0.2)
 }
+section{
+    margin-top: 10px;
+}
 .head div{
     display: inline-block;
     position: relative;
@@ -25,4 +28,17 @@ header{
 a{
     color: black;
     text-decoration: none;
+}
+.body1{
+    width: 100%;
+    height: 200px;
+    padding-top: 10px;
+    background-image: url(../resources/images/mainimage.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-size: 230%;
+    font-family: "굴림";
+    line-height: 100px;
 }
