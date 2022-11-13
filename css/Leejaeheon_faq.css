@@ -42,3 +42,14 @@ a{
     font-family: "굴림";
     line-height: 100px;
 }
+.section ol{
+    text-align: center;
+}
+.section ol li{
+    margin: 20px;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+    
+}
