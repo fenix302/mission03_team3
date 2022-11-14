@@ -1,0 +1,67 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: none;
+    font-family: "맑은 고딕";
+    font-size: 14px;
+}
+#box{
+    width: 1920px;
+    margin: 0 auto;
+}
+.head_box{
+    width: 1920px;
+    height: 50px;
+    /* background-color: red; */
+}
+.logo{
+    width: 60px;
+    height: 100%;
+    /* background-color: aliceblue; */
+    float: left;
+}
+.company_name{
+    width: 1700px;
+    height: 100%;
+    /* background-color: aqua; */
+    float: left;
+}
+.login{
+    width: 160px;
+    height: 100%;
+    /* background-color: greenyellow; */
+    float: right;
+}
+.slide_img{
+    width: 1920px;
+    height: 200px;
+    /* background-color: beige; */
+    clear: both;
+}
+.question{
+    width: 1920px;
+    height: 500px;
+    /* background-color: blue; */
+}
+.question_main{
+    width: 1920px;
+    height: 50px;
+    /* background-color: green; */
+}
+.qna1{
+    width: 960px;
+    height: 450px;
+    /* background-color: yellow; */
+    float: left;
+}
+.qna2{
+    width: 960px;
+    height: 450px;
+    /* background-color: yellowgreen; */
+    float: right;
+}
+.num{
+    clear: both;
+}
