@@ -51,16 +51,32 @@
     /* background-color: green; */
 }
 .qna1{
-    width: 960px;
+    width: 860px;
     height: 450px;
     /* background-color: yellow; */
     float: left;
 }
 .qna2{
-    width: 960px;
+    width: 1060px;
     height: 450px;
     /* background-color: yellowgreen; */
     float: right;
+}
+.question1{
+    width: 600px;
+}
+.question1 p{
+    padding-left: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.question2{
+    width: 600px;
+}
+.question2 p{
+    padding-left: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 .num{
     clear: both;
