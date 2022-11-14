@@ -49,6 +49,9 @@ a{
 .qna1{
     text-align: left;
 }
+p.answer1{
+    margin-top: 0px;
+}
 .qna1 p{
     margin-left: 100px;
     margin-top: 50px;
@@ -66,7 +69,12 @@ a{
 .question2 span{
     font-size: 18px;
 }
-p:hover{
+p.question1:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+p.question2:hover{
     color: white;
     background-color: brown;
     cursor: pointer;
