@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="shortcut icon" href="resources/main_images/team_logo2.png">
+    <link rel="icon" href="resources/main_images/team_logo2.png">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            background: rgb(240, 237, 237);
+        }
+        .team_top{
+            display: flex;
+            margin: 50px 110px 50px 110px;
+            align-items: baseline;
+            border-bottom: 1px solid black;
+            padding-bottom: 30px;
+            position: relative;
+        }
+
+        #team_logo{
+            width: 260px;
+            padding-right: 60px;
+        }
+        h1{
+            font-size: 80px;
+            display: inline;
+        }
+        .mission{
+            position: absolute;
+            right: 50px;
+            bottom: 50px;
+            font-size: 30px;
+        }
+        .team_box1{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 100px;
+        }
+        .team_mates1{
+            list-style: none;
+        }
+        .team_main{
+            width: 200px;
+        }
+        .team_box2{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 100px;
+        }
+        .team_mates2{
+            list-style: none;
+            display: flex;
+            padding-top: 20px;
+            position: relative;
+        }
+        .team_mates2 p {
+            position: absolute;
+            top: 25%;
+            background: rgba(0, 0, 0, 0);
+            font-size: 50px;
+            left: 25px;
+            color: black;
+        }
+        .team_mates2>a>img{
+            width: 200px;
+            height: 330px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <header class="team_top">
+        <div>
+            <img id="team_logo" src="resources/main_images/team_logo2.png" alt="팀로고">
+            <h1>조</h1>
+        </div>
+        <div class="mission"><p>Mission 2</p></div>
+    </header>
+    <ul class="team_box1">
+        <li class="team_mates1"><a href="#" target="_blank"><img src="resources/main_images/jinho.png" alt="최진호" class="team_main"></a></li>
+        <li class="team_mates1"><a href="#" target="_blank"><img src="resources/main_images/KMJ_camera.png" alt="김민지" class="team_main"></a></li>
+        <li class="team_mates1"><a href="html/Leejaeheon_faq.html" target="_blank"><img src="resources/main_images/coconutgames.png" alt="이재헌" class="team_main"></a></li>
+        <li class="team_mates1"><a href="#" target="_blank"><img src="resources/main_images/diamond.png" alt="신예진" class="team_main"></a></li>
+        <li class="team_mates1"><a href="#" target="_blank"><img src="resources/main_images/LDH_logo.ico" alt="이도현" class="team_main"></a></li>
+    </ul>
+    <ul class="team_box2">
+        <li class="team_mates2">
+            <a href="#" target="_blank"><img src="resources/main_images/1233.png" alt="최진호" ></a>
+            <a href="#" target="_blank"><p>최진호</p></a>
+        </li>
+        <li class="team_mates2">
+            <a href="#" target="_blank"><img src="resources/main_images/1233.png" alt="김민지" style="opacity: 0.5;"></a>
+            <a href="#" target="_blank"><p>김민지</p></a>
+        </li>
+        <li class="team_mates2">
+            <a href="html/Leejaeheon_faq.html" target="_blank"><img src="resources/main_images/1233.png" alt="이재헌" ></a>
+            <a href="html/Leejaeheon_faq.html" target="_blank"><p>이재헌</p></a>
+        </li>
+        <li class="team_mates2">
+            <a href="#" target="_blank"><img src="resources/main_images/1233.png" alt="신예진" style="opacity: 0.5;"></a>
+            <a href="#" target="_blank"><p>신예진</p></a>
+        </li>
+        <li class="team_mates2">
+            <a href="#" target="_blank"><img src="resources/main_images/1233.png" alt="이도현" ></a>
+            <a href="#" target="_blank"><p>이도현</p></a>
+        </li>
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사 소개 사이트</title>
+
+    <link rel="shortcut icon" href="resources/images/earth_globe_icon_jh.ico">
+    <link rel="icon" href="resources/images/earth_globe_icon_jh.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style_jh.css">
+
+    <style type="text/css">
+        @keyframes logo {
+            0% {transform: translate(0.0);}
+            100% {transform: translateX(100px);}
+        }        
+        #logo{
+            padding-left: 30px;
+            padding-right: 480px;
+        }
+        .header{
+            width: 100%;
+            height: 80px;
+            margin: 0 auto;
+            margin-bottom: 3px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgb(255, 255, 255);
+            z-index: 10;
+        }
+        .header ul{
+            display: flex;
+        }
+        .navTop{
+            display: inline-block;
+            position: relative;
+            margin-right: 20px;
+        }
+        .navTop:hover{
+            transform: translateY(-3px);
+        }
+        .navInfo{
+            font-size: 25px;
+            align-items: center;
+        }
+        .about{
+            padding-top: 80px;
+            padding-bottom: 150px;
+        }
+        .about_main1-1:hover {
+            box-shadow: 2px 2px 8px grey;
+        }
+        @keyframes img {
+            0% {opacity: 1;}
+            45% {opacity: 1;}
+            55% {opacity: 0;}
+            100% {opacity: 0;}
+        }
+        .aboutImg{
+            width: 1900px;
+            height: 270px;
+            position: relative;
+        }
+        h1{width: 1280px; margin: auto; display: flex; font-size: 45px; padding-top: 20px;}
+        .main_group1 {
+            width: 1280px;
+            margin: 0 auto;
+            display: flex;
+        }
+        .main_group1 li{
+            float: left; margin-top: 10px; padding: 10px;
+        }
+        .vision{
+            width: 1280px;
+            margin: 20px auto;
+        }
+        .vision h4{
+            font-size: 25px; padding-top: 60px;
+        }
+        .vision p{
+            font-size: 18px; padding-top: 30px;
+        }
+        .vision_img{
+            background-color: #f5f5f5;
+            text-align: center;
+            vertical-align: middle;
+            margin-top: 40px;
+        }
+        .footer_top{
+            width: 1280px;
+            margin: 0 auto;
+            display: flex;
+            border-top: 1px solid grey;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.26);
+            padding-bottom: 10px;
+            justify-content: space-between;
+        }
+        .footer_top li{
+            float: left; margin-top: 10px; padding: 0 20px; font-size: 14px;
+        }
+        .footer_top li+li{
+            border-left: 1px solid #000;
+        }
+        .footer_middle, .footer_bottom{
+            width: 1280px;
+            margin: 20px auto;
+        }
+        .footer_middle li, a{
+            float: right; padding: 5px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <p id="상단"></p>
+    <header class="header">
+        <div><a href="#" id="logo"><img src="../resources/images/logo_jh.png" title="mainLogo" alt="main logo"></a></div>
+        <ul>
+            <li class="navTop"><a href="#" class="navInfo">ABOUT</a></li>
+            <li class="navTop"><a href="#" class="navInfo">SERVICE</a></li>
+            <li class="navTop"><a href="#" class="navInfo">LOGIN</a></li>
+        </ul>
+        
+    </header>
+
+ 
+    <footer>
+            <div class="footer_top">
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">채용안내</a></li>
+                    <li><a href="#">홈페이지 이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+                <a href="#상단" style=" font-size: 16px; position: fixed; bottom: 13px; right: 30px; border: 1px solid grey; border-radius: 50%; background-color: rgba(201, 192, 192, 0.7);">TOP</a>
+            </div>
+            <div class="footer_middle">
+                <ul>
+                    <li><a href="#"><img src="../resources/Jinho/images/youtube_icon_jh.png" alt="유튜브"></a></li>
+                    <li><a href="#"><img src="../resources/Jinho/images/twitter_social_icon_jh.png" alt="트위터"></a></li>
+                    <li><a href="#"><img src="../resources/Jinho/images/instagram_icon_jh.png" alt="인스타그램"></a></li>
+                </ul>
+            </div>
+            <div class="footer_bottom">    
+                <p>(주)ㅁㅁㅁㅁ <br> 경기도 광명시 1234-1234 <br> Copyright ⓒ abcd. All Rights Reserved.</p>
+            </div>
+    </footer>
+    
+</body>
+</html>
