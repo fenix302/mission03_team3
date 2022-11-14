@@ -23,15 +23,13 @@
         font-weight: bold;
         padding-left: 30px;
     }
+    .head div.headleft span{
+        color: rgba(109, 77, 66, 1);
+    }
     .head div.headright{
         margin: 10px;
         position: absolute; right: 50px; top: 5px;
         font-weight: bold;
-    }
-    span#login{
-        background-color: white;
-        width: 50px;
-        height: 30px;
     }
     a{
         color: black;
@@ -56,6 +54,12 @@
     .section ol h2{
         text-align: left;
         padding: 20px 0px 0px 50px;
+    }
+    .section ol div p{
+        width: 300px;
+        height: 200px;
+        display: block;
+        border: 1px solid black;
     }
     .section ol li{
         margin: 20px;
