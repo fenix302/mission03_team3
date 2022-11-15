@@ -62,18 +62,6 @@
     /* background-color: yellowgreen; */
     float: right;
 }
-.question1{
-    width: 600px;
-    padding-left: 50px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-}
-.question2{
-    width: 600px;
-    padding-left: 50px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-}
 .answer1{
     width: 650px;
     height: 300px;
