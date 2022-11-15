@@ -60,4 +60,19 @@ a{
 .qna2{
     text-align: left;
 }
+.help h2{
+    font-size: 25px;
+    padding-left: 90px;
+}
+.help p{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 150px;
+    text-align: center;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    
+}
 

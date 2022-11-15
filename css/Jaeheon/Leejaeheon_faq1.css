@@ -19,6 +19,7 @@
 .logo{
     width: 60px;
     height: 100%;
+    padding-left: 40px;
     /* background-color: aliceblue; */
     float: left;
 }
@@ -29,7 +30,7 @@
     float: left;
 }
 .login{
-    width: 160px;
+    width: 120px;
     height: 100%;
     /* background-color: greenyellow; */
     float: right;
@@ -42,7 +43,7 @@
 }
 .question{
     width: 1920px;
-    height: 500px;
+    height: 700px;
     /* background-color: blue; */
 }
 .question_main{
@@ -70,6 +71,29 @@
     width: 650px;
     height: 300px;
 }
-.num{
+.help{
+    width: 1920px;
+    height: 300px;
+    clear: both;
+}
+.help h2{
+    height: 40px;
+}
+.smart_bot{
+    width: 640px;
+    height: 260px;
+    float: left;
+}
+.one_on_one{
+    width: 640px;
+    height: 260px;
+    float: left;
+}
+.help_call{
+    width: 640px;
+    height: 260px;
+    float: left;
+}
+footer{
     clear: both;
 }
