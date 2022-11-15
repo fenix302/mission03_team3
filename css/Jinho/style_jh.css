@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     color: rgb(0, 0, 0);
+    border-collapse: collapse;
 }
 #logo{
     padding-left: 30px;
@@ -66,26 +67,43 @@ h1{width: 1280px; margin: 0 auto; display: flex; font-size: 45px; padding: 20px 
 .faq{
     width: 1280px;
     margin: 0 auto;
-
+    margin-bottom: 100px;
 }
 .q {
     font-size: 20px;
     cursor: pointer;
-    padding: 10px 0 10px 0;
-
+    padding: 0 0 10px 0;
+    margin-left: 10px;
 }
-.a {
+.q p::before{
+    content : "Q. ";
+    font-size: 30px;
+    font-weight: 700;
+    left: 10px;
+}
+.faq_box:hover {
+    background: rgb(202, 202, 202);
+    transition: all 1s;
+}
+
+.a_box{
+    position: relative;
     display: none;
-    overflow: hidden;
+    padding: 40px;
+    background: rgb(218, 218, 218);
 }
-.a p{
-    padding: 10px 0 10px 0;
-    background: rgb(209, 208, 208);
+.a_box::before{
+    position: absolute;
+    content : "A. "; 
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    top: 30px;
+    left: 30px;
 }
-
-
-
-
+.a > p{
+    padding: 0px 30px 30px 40px;
+}
 
 
 
