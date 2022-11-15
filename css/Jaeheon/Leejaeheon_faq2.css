@@ -63,12 +63,12 @@ p.answer1{
 .qna2{
     text-align: left;
 }
-.question1 span{
+/* .question1 span{
     font-size: 18px;
 }
 .question2 span{
     font-size: 18px;
-}
+} */
 p.question1:hover{
     color: white;
     background-color: brown;

@@ -7,17 +7,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/Jaeheon/Leejaeheon_faq1.css">
     <link rel="stylesheet" href="../css/Jaeheon/Leejaeheon_faq2.css">
+    <link rel="stylesheet" href="../css/Jaeheon/Leejaeheon_faq3.css">
     <style>
-        p.answer1{
+        .qna1>div>p+p{
             margin-top: 0px;
             padding: 10px;
             display: none;
         }
-        p.answer2{
+        .qna2>div>p+p{
             margin-top: 0px;
             display: none;
         }
     </style>
+    <script src="../javascript/Jaeheon/jquery-3.3.1.js"></script>
 </head>
 <body>
     <div id="box">
@@ -44,38 +46,38 @@
                 <div class="question_main">자주 묻는 QNA</div>
                 <div class="qna1">
                     <div>
-                        <p class="question1"><span>01</span><br>로그인이 되지 않아요</p>
-                        <p class="answer1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
+                        <p class="q1"><span>01</span><br>로그인이 되지 않아요</p>
+                        <p id="a1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
                     </div>
                     <div>
-                        <p class="question1"><span>02</span><br>비밀번호를 잃어버렸어요</p>
-                        <p class="answer1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
+                        <p class="q2"><span>02</span><br>비밀번호를 잃어버렸어요</p>
+                        <p id="a2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
                     </div>                
                     <div>
-                        <p class="question1"><span>03</span><br>계정을 해킹당했어요</p>
-                        <p class="answer1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
+                        <p class="q3"><span>03</span><br>계정을 해킹당했어요</p>
+                        <p id="a3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
                     </div>
                     <div>
-                        <p class="question1"><span>04</span><br>게임진행 중 갑자기 강제종료 되었습니다.</p>
-                        <p class="answer1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
+                        <p class="q4"><span>04</span><br>게임진행 중 갑자기 강제종료 되었습니다.</p>
+                        <p id="a4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
                     </div>
                 </div>
                 <div class="qna2">
                     <div>
-                        <p class="question2"><span>05</span><br>캐시를 환불하고 싶어요</p>
-                        <p class="answer2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
+                        <p class="q5"><span>05</span><br>캐시를 환불하고 싶어요</p>
+                        <p id="a5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
                     </div>
                     <div>
-                        <p class="question2"><span>06</span><br>아이템을 잘못 분해했어요</p>
-                        <p class="answer2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
+                        <p class="q6"><span>06</span><br>아이템을 잘못 분해했어요</p>
+                        <p id="a6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
                     </div>
                     <div>
-                        <p class="question2"><span>07</span><br>욕설한 유저를 신고하고 싶어요</p>
-                        <p class="answer2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
+                        <p class="q7"><span>07</span><br>욕설한 유저를 신고하고 싶어요</p>
+                        <p id="a7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
                     </div>
                     <div>
-                        <p class="question2"><span>08</span><br>일대일 문의를 진행하고 싶어요</p>
-                        <p class="answer2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
+                        <p class="q8"><span>08</span><br>일대일 문의를 진행하고 싶어요</p>
+                        <p id="a8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, magnam?</p>
                     </div>
                 </div>
             </div>
@@ -84,5 +86,6 @@
             <div class="num"></div>
         </section>
     </div>
+    <script src="../javascript/Jaeheon/leejaeheon.js"></script>
 </body>
 </html>

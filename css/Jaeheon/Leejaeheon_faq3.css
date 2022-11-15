@@ -1,0 +1,122 @@
+.q1{
+    width: 600px;
+    padding-left: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.q2{
+    width: 600px;
+    padding-left: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.q3{
+    width: 600px;
+    padding-left: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.q4{
+    width: 600px;
+    padding-left: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.q5{
+    width: 600px;
+    padding-left: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.q6{
+    width: 600px;
+    padding-left: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.q7{
+    width: 600px;
+    padding-left: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.q8{
+    width: 600px;
+    padding-left: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.q1:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+.q2:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+.q3:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+.q4:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+.q5:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+.q6:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+.q7:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+.q8:hover{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.a1{
+    width: 650px;
+    height: 300px;
+}
+.a2{
+    width: 650px;
+    height: 300px;
+}
+.a3{
+    width: 650px;
+    height: 300px;
+}
+.a4{
+    width: 650px;
+    height: 300px;
+}
+.a5{
+    width: 650px;
+    height: 300px;
+}
+.a6{
+    width: 650px;
+    height: 300px;
+}
+.a7{
+    width: 650px;
+    height: 300px;
+}
+.a8{
+    width: 650px;
+    height: 300px;
+}
