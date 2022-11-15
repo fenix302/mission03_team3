@@ -1,0 +1,12 @@
+/* 초기화 */
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   list-style: none;
+   text-decoration: none;
+}
+
+body {
+   font-family: 'Noto Sans KR', sans-serif;
+}
