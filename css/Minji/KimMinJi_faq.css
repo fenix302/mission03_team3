@@ -10,3 +10,90 @@
 body {
    font-family: 'Noto Sans KR', sans-serif;
 }
+
+/* 전체 */
+#wrap {
+   width: 100%;
+}
+
+/* 헤더 */
+header {
+   width: 100%;
+   height: 80px;
+   background-color: antiquewhite;
+}
+
+#head {
+   max-width: 1440px;
+   height: 80px;
+   background-color: azure;
+   margin: 0 auto;
+}
+
+/* 로고 */
+#logo {
+   width: 150px;
+   float: left;
+   padding-top: 15px;
+}
+
+/* 네비게이션 */
+nav {
+   height: 80px;
+   max-width: 700px;
+   background-color: beige;
+   display: inline-block;
+}
+
+nav > ul > li {
+   display: inline;
+}
+
+/* 콘텐츠 상단 */
+#content {
+   width: 100%;
+   background-color: rgb(231, 255, 220);
+   clear: both;
+}
+
+#con1 {
+   max-width: 1440px;
+   margin: 0 auto;
+   background-color: aliceblue;
+}
+
+.con1_name {
+   max-width: 100%;
+   height: 150px;
+   border: 1px solid salmon;
+}
+
+/* 콘텐츠 하단 */
+.fnq_box1 {
+   max-width: 700px;
+   background-color: whitesmoke;
+   margin-right: 20px;
+   /* float: left; */
+}
+
+.fnq_box2 {
+   max-width: 700px;
+   background-color: whitesmoke;
+   margin-left: 20px;
+}
+
+/* 푸터 */
+
+footer {
+   width: 100%;
+   height: 140px;
+   background-color: #cccccc;
+}
+
+#foot {
+   max-width: 1440px;
+   color: darkgray;
+   position: relative;
+   margin: 0 auto;
+   background-color: blanchedalmond;
+}
