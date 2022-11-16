@@ -10,8 +10,9 @@
     border-collapse: collapse;
 }
 #logo{
-    padding-left: 30px;
-    padding-right: 480px;
+    height: 100px;
+    float: left;
+    margin-top: 19px;
 }
 .header{
     width: 100%;
@@ -28,20 +29,48 @@
     background: rgb(0, 0, 0);
     z-index: 10;
 }
-.header ul{
-    display: flex;
+.header div{
+    width: 1280px;
+}
+.navi{
+    float: right;
+    height: 100%;
+    display: block;
+}
+.navi li{
+    display: inline-block;
+    text-align: center;
+    width: 130px;
+    height: 92px;
 }
 .navTop{
-    display: inline-block;
+    display: inline;
     position: relative;
     margin-right: 20px;
-}
-.navTop:hover{
-    transform: translateY(-3px);
+    margin-top: 50px;
 }
 .navInfo{
     font-size: 25px;
-    align-items: center;
+    color: aquamarine;
+}
+.submenu{
+    margin-top: 25px;
+    position: absolute;
+    background: #000;
+    display: none;
+    z-index: 50;
+}
+.submenu li{
+    width: 130px;
+    height: 40px;
+}
+.submenu li a{
+    display: block;
+    font-size: 18px;
+    line-height: 35px;
+    color: white;
+}
+.submenu li a:hover{
     color: aquamarine;
 }
 .main{
@@ -60,7 +89,6 @@
     height: 350px;
     position: relative;
 }
-
 
 h1{width: 1280px; margin: 0 auto; display: flex; font-size: 45px; padding: 20px 0 50px 0;}
 
@@ -104,10 +132,6 @@ h1{width: 1280px; margin: 0 auto; display: flex; font-size: 45px; padding: 20px 
 .a > p{
     padding: 0px 30px 30px 40px;
 }
-
-
-
-
 
 .footer_top{
     width: 1280px;

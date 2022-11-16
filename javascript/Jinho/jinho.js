@@ -34,5 +34,15 @@ $(document).ready(function(){
         $(".faq .a_box:not(:eq(6))").slideUp(100,"linear");
 
     })
-})
+    $(".navi li").mouseover(function(){
+        $(this).children(".submenu").stop().slideDown();
+    });
+    $(".navi li").mouseleave(function(){
+        $(this).children(".submenu").stop().slideUp();
+    })
+});
+
+
+
 // faq script 종료
+
