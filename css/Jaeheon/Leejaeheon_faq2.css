@@ -29,17 +29,56 @@ a{
 }
 .slide_img{
     width: 100%;
-        height: 200px;
-        padding-top: 10px;
-        background-image: url(../../resources/Jaeheon/images/mainimage.jpg);
-        background-size: cover;
-        background-position: center;
-        text-align: center;
-        color: white;
-        font-size: 230%;
-        font-family: "굴림";
-        line-height: 100px;
+    height: 200px;
+    padding-top: 30px;
+    background-image: url(../../resources/Jaeheon/images/mainimage.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    line-height: 50px;
 }
+
+.slide_img h2{
+    font-size: 50px;
+}
+
+.slide_img p{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 10px;
+    
+}
+
+.search{
+    vertical-align: middle;
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.search img{
+    position: absolute;
+    left: 15px;
+    top: 14px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+}
+
+.search_bar{
+    position: absolute;
+    border: none;
+    left: 50px;
+    width: 460px;
+    height: 50px;
+}
+
 .question_main{
     font-size: 25px;
     font-weight: bold;
@@ -52,13 +91,30 @@ a{
 .qna1 p{
     margin-left: 100px;
     margin-top: 50px;
+    font-size: 18px;
 }
+
+.qna1 p:hover{
+    background: rgba(109, 77, 66, 1);
+    color: white;
+    transition: all 1s;
+}
+
+
+.qna2{
+    text-align: left;
+}
+
+.qna2 p:hover{
+    background: rgba(109, 77, 66, 1);
+    color: white;
+    transition: all 1s;
+}
+
 .qna2 p{
     margin-left: 100px;
     margin-top: 50px;
-}
-.qna2{
-    text-align: left;
+    font-size: 18px
 }
 .help h2{
     font-size: 25px;
@@ -69,10 +125,17 @@ a{
     height: 200px;
     margin: 0 auto;
     margin-top: 10px;
-    line-height: 150px;
     text-align: center;
     border: 3px solid rgba(0, 0, 0, 0.2);
     border-radius: 30px;
-    
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+    background-color: aliceblue;
 }
+.help p a img{
+    width: 64px;
+    height: 64px;
+}
+
 
