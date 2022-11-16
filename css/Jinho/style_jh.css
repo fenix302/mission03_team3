@@ -37,31 +37,35 @@
     height: 100%;
     display: block;
 }
-.navi li{
+.navi > li{
     display: inline-block;
     text-align: center;
-    width: 130px;
+    width: 150px;
     height: 92px;
 }
+.nav > li > a{
+    width: 150px;
+}
 .navTop{
-    display: inline;
+    display: inline-block;
     position: relative;
-    margin-right: 20px;
     margin-top: 50px;
 }
 .navInfo{
     font-size: 25px;
     color: aquamarine;
 }
+.navTop:hover{
+    transform: translateY(-3px);
+}
 .submenu{
-    margin-top: 25px;
     position: absolute;
-    background: #000;
+    background: rgb(0, 0, 0);
     display: none;
     z-index: 50;
 }
 .submenu li{
-    width: 130px;
+    width: 154px;
     height: 40px;
 }
 .submenu li a{
