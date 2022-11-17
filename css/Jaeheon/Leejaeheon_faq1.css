@@ -98,7 +98,40 @@
 }
 footer{
     width: 1920px;
-    height: 300px;
+    height: 100px;
     background-color: black;
     clear: both;
+}
+
+.ftcontent{
+    float: left;
+    width: 1920px;
+    height: 50px;
+}
+
+.ftmenu{
+    width: 1920px;
+    height: 50px;
+}
+
+.ftmenu li{
+    float: left;
+    line-height: 50px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.ftmenu li a{
+    color: white;
+    font-size: 16px;
+}
+
+.copy{
+    float: right;
+    width: 1920px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 50px;
 }
