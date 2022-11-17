@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script/jquery-1.12.3.js"></script>
+    <script src="javascript/script.js" defer type="text/javascript"></script>
+    
+    
+    <style type="text/css">
+
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: 50%;
+}
+
+body{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/* .navi{
+    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+} */
+
+
+.navi > li {
+   float: left;
+   margin-top: 10px;
+   background: darkgrey;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 20px;
+   padding-right: 30px;
+text-decoration: none;
+   
+}
+
+.navi > li > a {
+   height: 40px;
+   width: 180px;
+   line-height: 40px;
+   font-size: 16px;
+   font-weight: bold;
+   text-align: center;
+   background-color: darkgray;
+   color: black;
+   text-decoration-line: none;
+   margin-left: 0%;
+   
+}
+.navi > li > a:hover {
+   background-color: #30a3f3;
+}
+.submenu {
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   display: none;
+   z-index: 1;
+   background: #aaa;
+   text-align: left;
+  
+}
+.submenu > li > a {
+  
+   height: 35px;
+   line-height: 35px;
+   font-size: 12px;
+   font-weight: bold;
+   text-align: left;
+   color: #fff;
+   text-decoration: none; 
+   float: left;
+   
+}
+.submenu > li > a:hover {
+   background-color: #30a3f3;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+ul>li{
+    list-style: none;
+}
+
+
+
+.layout{
+    max-width: 600px;
+    margin: 100px;
+}
+
+.qna{
+    list-style: none;
+
+    
+}
+.qna > li{
+
+  padding: 20px;
+  box-sizing: border-box;
+}
+.qna > li:nth-child(n+2){ /* 아이템 구분 점선 */
+  border-top: 1px dashed #aaa;
+
+}
+.qna input {
+  display: none;
+}
+
+.qna label { /* 제목 - 클릭 영역 */
+  font-weight: bold;
+  font-size: 15pt;
+  color: #000;
+  margin: 20px 20px 20px;
+  cursor: pointer;
+}
+.qna label::before { /* 제목 앞 화살표 */
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-left: 8px solid #a00;
+  margin: 2px 0 0 8px;
+  float: left;
+}
+.qna input:checked + label::before { /* 내용 펼침 상태 제목 앞 화살표 */
+  border: 8px solid transparent;
+  border-top: 8px solid #a00;
+  border-bottom: 0;
+  margin: 8px 4px 0;
+}
+
+.qna div { /* 내용 영역 - 기본 감춤 상태 */
+  display: none;
+  color: #666;
+  font-size: 0.9375em;
+  overflow: hidden;
+  padding: 10px 0 10px 30px;
+  box-sizing: border-box;
+  transition: max-height 0.4s;
+}
+.qna input:checked + label + div { /* 내용 영역 펼침 */
+  display: block;
+}
+
+.qnabox{color: rgb(0, 0, 0);
+        background: #666;
+        padding: 10px 0 10px 30px;
+    	height: 150px;
+	width: auto;
+	border: 0px none rgb(48, 48, 48);
+	border-top: 0px none rgb(48, 48, 48);
+	border-right: 0px none rgb(48, 48, 48);
+	border-bottom: 0px none rgb(48, 48, 48);
+	border-left: 0px none rgb(48, 48, 48);
+	margin: 0px;
+	padding: 10 10 10 10px;
+	max-height: none;
+	min-height: 0px;
+	max-width: none;
+	min-width: 0px;}
+
+
+    .qnabox>h3{
+    font-family: "맑은 고딕", "Malgun Gothic", "Apple Gothic", sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 28px;
+	text-decoration: none solid rgb(48, 48, 48);
+	text-align: center;
+    margin-top: 50px;
+ 
+    }
+ 
+    footer{
+        position: relative;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	float: none;
+	display: block;
+	clear: none;
+	z-index: auto;
+    background: rgb(230, 221, 221);
+    }
+/* 
+    ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 400px ;
+    padding-inline-end: 400px;
+} */
+    </style>
+</head>
+<body>
+    <img src="../resources/Yejin/images/olive.png" alt="로고 이미지">
+
+    <header>
+        <nav class="menu">
+            <ul class="navi">
+                <li><a href="#">홈페이지 소개</a>
+                <ul class="submenu">
+                    <li><a href="#">새 소식</a></li>
+                    <li><a href="#">공지사항</a></li>
+
+                </ul>
+                </li>
+                <li><a href="#">이용안내</a>
+                    <ul class="submenu">
+                        <li><a href="#">결제 안내</a></li>
+                        <li><a href="#">오시는길 </a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">가맹점</a>
+                        <ul class="submenu">
+                            <li><a href="#">가맹점신청</a></li>
+                            <li><a href="#">가맹점위치</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">Q & A</a>
+                            <ul class="submenu">
+                                <li><a href="#">자주묻는질문</a></li>
+                                <li><a href="#">질문하기</a></li>
+                        
+                            </ul>
+                        </li>
+            </ul>
+        </nav>
+    </header>
+
+    <br> 
+    <br>
+    <br><br>
+
+
+    <div class="qnabox"><h3>자주 묻는 질문</h3></div>
+
+
+    <ul class="qna">
+            <li>
+            <input type="checkbox" id="qna-1">
+            <label for="qna-1">다른 사람 명의의 계좌로 환불받을 수 있나요?</label>
+            <div class="box">
+                <p>다른 사람 명의로는 환불할 수 없습니다. 고객님 본인 명의 계좌로만 환불이 가능합니다.</p>
+            </div>
+            </li>
+            <li>
+            <input type="checkbox" id="qna-2">
+            <label for="qna-2">등록한 환불계좌를 등록/변경하고 싶어요.</label>
+            <div class="box">
+                <p>마이페이지에서 환불계좌 등록 및 수정이 가능합니다. 환불계좌는 주문자 명의의 본인 계좌만 등록할 수 있습니다.</p>
+                <p>주문 진행 상태가 '환불진행중' 또는 '환불완료' 에서는 환불계좌를 변경할 수 없습니다.</p>
+            </div>
+        </li>
+        <li>
+            <input type="checkbox" id="qna-3">
+            <label for="qna-3">반품 신청을 철회하고 싶어요.</label>
+            <div class="box">
+                <p>반품할 상품을 아직 보내지 않은 경우, 마이페이지에서 반품철회를 하실 수 있습니다.</p>
+                <p>반품철회 후 택배사에서 상품 수거가 된 것으로 확인될 경우 해당 주문은 반품처리한 것으로 재 변경됩니다.</p>
+            </div>
+        </li>
+        <li>
+            <input type="checkbox" id="qna-4">
+            <label for="qna-4">배송된 상품이 부재중으로 반송된 경우 어떻게 하나요?</label>
+            <div class="box">
+                <p>부재 등의 사유로 반송된 상품은 "마이페이지 > 주문 조회"]"에서 택배사 영업소, 또는 배송 담당 택배원 연락처를 통해 재배송 요청을 할 수 있습니다. 상품이 이미 반송되어 해당 업체로 입고된 경우, 왕복 배송비를 추가 부담하셔야 합니다.</p>
+            </div>
+        </li>
+        <li>
+            <input type="checkbox" id="qna-5">
+            <label for="qna-5">상품에 대해서 문의하려면 어떻게 해야 하나요?</label>
+            <div class="box">
+                <p>상품에 관한 내용은 상품상세 화면에 자세히 안내되어 있습니다. 마이페이지 > 주문내역에서 주문한 상품을 선택하면 상세페이지로 이동합니다.</p>
+                <p>상품 상세 내용에 표시되어 있지 않은 내용은 판매자에게 문의해 주십시오.</p>
+                <p>> 판매자에게 문의</p>
+                <p>1. "마이페이지 > 주문내역에서 상품 선택 > 배송/교환/반품 안내"에 표기된 판매자 연락처로 문의</p>
+                <p>2. "["마이페이지 > 1:1문의하기 > 문읜타입에서 판매자에게 문의하기"를 선택한 후 질의 내용 작성</p>
+            </div>
+        </li>
+    </ul>
+ 
+ <br>
+    <hr>
+    <footer>
+    ARS(유료)대표전화 1588-8700 카드신청 1688-1133 분실신고·한도승인 (국내) 1588-8900 (해외) 82-2-2000-8100, 800-1588-8700<br>
+회사소개ENGLISH전자민원접수이용약관고객권리 안내금융사기피해예방<br>
+개인정보 처리방침위치기반서비스 이용약관통신중개판매상품 이메일  lifecare.scard@samsung.com<br>
+패밀리사이트
+대표이사 사장 김대환 서울 중구 세종대로 67(04514) 사업자등록번호 202-81-45602 통신판매업 신고번호 제 2009-서울중구-1449호<br>
+사업자정보 확인<br>
+© SAMSUNG CARD CO., LTD. All rights reserved.</footer>
+
+</body>
+</html>
