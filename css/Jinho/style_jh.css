@@ -9,16 +9,21 @@
     color: rgb(0, 0, 0);
     border-collapse: collapse;
 }
+.logo{
+    float: left;
+    margin-right: 520px;
+}
 #logo{
     height: 80px;
     float: left;
 }
 .header{
-    width: 100%;
+    /* width: 100%; */
     height: 80px;
     margin: 0 auto;
     margin-bottom: 3px;
-    align-items: center;
+    display: flex;
+    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -26,15 +31,15 @@
     background: rgb(0, 0, 0);
     z-index: 10;
 }
-/* 머리 창 줄이면 안끊기게하기 */
 .header_box{
     width: 1280px;
     height: 80px;
+    display: flex;
 }
 .navi{
     float: right;
     height: 100%;
-    display: block;
+    display: flex;
 }
 .navi > li{
     display: inline-block;
