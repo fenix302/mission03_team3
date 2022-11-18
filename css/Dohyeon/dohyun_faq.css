@@ -150,10 +150,6 @@ header{
     padding:10px;
   }
   
-  .faq-box > ul > li.hover > .faq-box__question::after {
-    content:"▲";
-  }
-  
   .faq-box__answer {
     display:none;
     background-color:rgba(92, 113, 228, 0.3);
